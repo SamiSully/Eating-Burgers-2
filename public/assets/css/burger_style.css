@@ -1,20 +1,92 @@
 li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.jumbotron {
+  background-image: url(https://thumbs.dreamstime.com/b/print-187611544.jpg);
+}
+
+.burger-bun {
+  text-align: center;
+  background-color: #cfa571;
+  color: #fcf7f0;
+  font-weight: bold;
+  font-size: larger;
+  width: 200px;
+  height: 50px;
+  padding-top: 5px;
+  border-radius: 40px 40px 0px 0px;
+}
+.burger-bun-bottom {
+  background-color: #cfa571;
+  width: 200px;
+  height: 30px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+button {
+  width: 180px;
+}
+
+.delete-burger {
+  background-color: #62431b;
+  border: none;
+}
+
+.delete-burger:hover {
+  background-color: #412c11;
+  border: none;
+}
+
+body {
+  background-color: #fcf7f0;
+}
+
+.main {
+  align-content: center;
+}
+
+.to-consume {
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  background-color: #b0cab0;
+  border-radius: 25px;
+}
+
+.devoured {
+  padding: 15px;
+  margin: 15px;
+  display: flex;
+  background-color: #ebdbdb;
+  border-radius: 25px;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h2 {
+  color: #412c11;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 5px;
+}

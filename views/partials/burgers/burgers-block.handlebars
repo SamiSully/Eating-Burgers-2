@@ -1,9 +1,15 @@
 <li>
-	{{burger_name}}
-
-	<button class="change-burger" data-id="{{id}}" data-newdevoured="{{devoured}}">
-		{{#if devoured}}Regurgitate?{{else}}Consume the Burger!{{/if}}
-	</button>
-
-	<button class="delete-burger" data-id="{{this.id}}">Trash the Burger!</button>
+	<div class="burger-bun">{{burger_name}}</div>
 </li>
+<li>
+	<button class="change-burger btn btn-success" data-id=" {{id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}Regurgitate?{{else}}Consume!{{/if}}
+	</button>
+</li>
+<li>
+	<button class="delete-burger btn btn-danger" data-id=" {{this.id}}">Trash the Burger!</button>
+</li>
+<li>
+	<div class="burger-bun-bottom"></div>
+</li>
+<br>
