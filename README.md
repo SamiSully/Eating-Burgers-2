@@ -2,7 +2,7 @@
 
 ![ALT](https://img.shields.io/badge/license-MIT-blue)
 
-![Image of Screenshot](.\public\assets\img\burgerMonsterDEMO.png)
+![Image of Screenshot](/public/assets/img/burgerMonsterDEMO.png)
 
 ## Description
 
